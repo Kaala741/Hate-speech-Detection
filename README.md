@@ -88,7 +88,47 @@ BERT</pre>
 The performance metrics for the Simple NN, CNN, and LSTM models were similar, achieving an accuracy of 85% and an F1 score of 71% for hate speech detection. In contrast, the BERT model outperformed the others, achieving an accuracy of 89% and an F1 score of 89%.
 Based on these results, we selected BERT as our final model for hate speech detection and saved this model for further implementation and deployment.</p>
 
+--- 
+## **Demo**
+## **Screenshot 1**:
+
+
+![Screenshots](readme-source/image_k1.png)
+
+
+## **Screenshot 2**:
+
+
+![Screenshots](readme-source/image_k.png)
+
+---
+## **Installation**
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
+ ```
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+ ```
+2.**Set up a virtual environment**:
+```
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
+
+3.**Install dependencies**:
+```
+pip install -r requirements.txt
+```
+4.**Run the Streamlit app**:
+streamlit run app.py
+```
+5.Open your browser and go to http://localhost:8501 to view the app.
+```
+---
+
 ## File Structure
+```
 Hate-speech-Detection/
 ├── data/                   # Contains datasets and preprocessed files
 │   ├── chat_words.json     # Chat word abbreviations and meanings
@@ -112,6 +152,9 @@ Hate-speech-Detection/
 ├── app.py                  # Streamlit app for hate speech detection
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
+```
+---
+## **License** 
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-
-### The individual implementations of the models can be found in separate branches of the repository. Each team member experimented with different approaches and models, and we decided to use the best methods from these individual efforts.
+---
