@@ -92,12 +92,12 @@ Based on these results, we selected BERT as our final model for hate speech dete
 ## **Demo**
 ## **Screenshot 1**:
 
-![Screenshots](readme_source/Screenshot(13).png)
+![Screenshots](readme_source/image.png)
 
 
 ## **Screenshot 2**:
 
-![Screenshots](readme_source/Screenshot2025-03-20231143.png)
+![Screenshots](readme_source/image1.png)
 
 ---
 ## **Installation**
