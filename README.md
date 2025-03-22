@@ -109,6 +109,31 @@ Check out the live demo of the app:
 ![Screenshots](readme-source/image_k.png)
 
 ---
+## **Installation**
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
+ ```
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+ ```
+2.**Set up a virtual environment**:
+```
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
+
+3.**Install dependencies**:
+```
+pip install -r requirements.txt
+```
+4.**Run the Streamlit app**:
+streamlit run app.py
+```
+5.Open your browser and go to http://localhost:8501 to view the app.
+```
+---
+
 ## File Structure
 ```
 Hate-speech-Detection/
