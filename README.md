@@ -90,13 +90,6 @@ Based on these results, we selected BERT as our final model for hate speech dete
 
 --- 
 ## **Demo**
-Check out the live demo of the app: 
-- [website links] 
-- (https://movie-recommender-k.streamlit.app/)
-- (https://movie-recommend-system-2w3p.onrender.com)
-
-
-
 ## **Screenshot 1**:
 
 
